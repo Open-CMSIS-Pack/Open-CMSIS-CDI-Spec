@@ -1,13 +1,13 @@
 # Open-CMSIS-CDI API
 
-Below is the initial list of proposed APIs that may be standardized as part of the **Open-CMSIS-CDI** project.  
+Below is the initial list of proposed APIs that may be standardized as part of the **Open-CMSIS-CDI** project.
 
 The proposed API interfaces are selected to enable:
   - Firmware update and security primitives on every device
   - Allowing IoT applications to runs on a broad range of physical devices as well as virtual hardware
   - Allow free choice of IoT software stacks or RTOS that work best for your application
-  
->Notes: 
+
+>Notes:
 > - It is proposed to re-use existing interfaces that have adoption. With the list below we provide access to existing material.
 > - The list should be considered as Work-in-Progress and not as committed list of API interfaces.
 > - The [Open-CMSIS-CDI](https://www.open-cmsis-cdi.org) working group should decide the final scope of interfaces and/or technical modifications.
@@ -28,8 +28,8 @@ Refer to [**www.open-cmsis-cdi.org**](https://www.open-cmsis-cdi.org) for detail
 
 |API|Candidate|Documentation|Headers|Tests|Pack|Ownership|
 |---|---------|-------------|-------|-----|----|--------|
-| Watchdog | Mbed HAL Watchdog | [Documentation](https://os.mbed.com/docs/mbed-os/v6.15/porting/watchdog-port.html) | [Header](https://github.com/ARMmbed/mbed-os/blob/master/hal/include/hal/watchdog_api.h) | [Tests](https://github.com/ARMmbed/mbed-os/tree/master/hal/tests/TESTS/mbed_hal) | No pack | Open-CMSIS-CDI |
-| GPIO | Mbed HAL GPIO | [Documentation](https://os.mbed.com/docs/mbed-os/v6.15/porting/gpio.html) | [Header](https://github.com/ARMmbed/mbed-os/blob/master/hal/include/hal/gpio_api.h) | [Tests](https://github.com/ARMmbed/mbed-os/tree/master/hal/tests/TESTS/mbed_hal_fpga_ci_test_shield) | No pack | Open-CMSIS-CDI |
+| Watchdog | Mbed HAL Watchdog | [Documentation](https://gitlab.arm.com/iot/open-iot-sdk/mcu-driver-hal/mcu-driver-hal/-/blob/main/docs/porting/api/Watchdog.md) | [Header](https://gitlab.arm.com/iot/open-iot-sdk/mcu-driver-hal/mcu-driver-hal/-/blob/main/hal/include/hal/watchdog_api.h) | [Tests](https://gitlab.arm.com/iot/open-iot-sdk/mcu-driver-hal/mcu-driver-hal/-/tree/main/tests/mbed_hal) | No pack | Open-CMSIS-CDI |
+| GPIO | Mbed HAL GPIO | [Documentation](https://gitlab.arm.com/iot/open-iot-sdk/mcu-driver-hal/mcu-driver-hal/-/blob/main/docs/porting/api/gpio.md) | [Header](https://gitlab.arm.com/iot/open-iot-sdk/mcu-driver-hal/mcu-driver-hal/-/blob/main/hal/include/hal/gpio_api.h) | [Tests](https://gitlab.arm.com/iot/open-iot-sdk/mcu-driver-hal/mcu-driver-hal/-/tree/main/tests/mbed_hal_fpga_ci_test_shield) | No pack | Open-CMSIS-CDI |
 | Ticker | CMSIS-RTOS2 OS Tick | [Documentation](https://arm-software.github.io/CMSIS_5/RTOS2/html/rtos_os_tick_api.html) | [Header](https://github.com/ARM-software/CMSIS_5/blob/develop/CMSIS/RTOS2/Include/os_tick.h) | No tests | [Pack](https://www.keil.com/dd2/pack/) | Open-CMSIS-CDI |
 
 ## Middleware APIs
