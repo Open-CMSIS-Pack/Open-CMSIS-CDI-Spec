@@ -10,9 +10,7 @@ The proposed API interfaces are selected to enable:
 >Notes:
 > - It is proposed to re-use existing interfaces that have adoption. With the list below we provide access to existing material.
 > - The list should be considered as Work-in-Progress and not as committed list of API interfaces.
-> - The [Open-CMSIS-CDI](https://www.open-cmsis-cdi.org) working group should decide the final scope of interfaces and/or technical modifications.
-
-Refer to [**www.open-cmsis-cdi.org**](https://www.open-cmsis-cdi.org) for details about the formation of Open-CMSIS-CDI working group.
+> - The Open-CMSIS-CDI working group should decide the final scope of interfaces and/or technical modifications.
 
 ## CDI APIs
 
